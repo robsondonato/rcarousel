@@ -1,4 +1,4 @@
-# rcarousel <img src="https://img.shields.io/badge/version-0.1.5-blue.svg" align="right" />
+# rcarousel <img src="https://img.shields.io/badge/version-0.1.0-blue.svg" align="right" />
 
 > **An interactive, track-based carousel for Shiny applications**.
 
