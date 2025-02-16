@@ -42,7 +42,7 @@ Once you have the `.tar.gz` file, open R and run:
 install.packages("path/to/rcarousel_0.1.0.tar.gz", repos = NULL, type = "source")
 ```
 
-Replace `"path/to/rcarousel_0.1.5.tar.gz"` with the **actual path** where the file is located.
+Replace `"path/to/rcarousel_0.1.0.tar.gz"` with the **actual path** where the file is located.
 
 ## Getting Started
 
