@@ -19,12 +19,30 @@
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/youruser/rcarousel) using:
+You can install the development version from [GitHub](https://github.com/robsondonato/rcarousel/rcarousel/) using:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("youruser/rcarousel")
+devtools::install_github("robsondonato/rcarousel/rcarousel/")
 ```
+
+## Installing rcarousel Locally
+
+If you have downloaded the `.tar.gz` file from the GitHub releases or built it yourself, you can install `rcarousel` locally in R using the following steps.
+
+### **1. Download the `.tar.gz` file**
+You can download the latest `.tar.gz` package from the **[Releases](https://github.com/robsondonato/rcarousel/)** section of the GitHub repository.
+
+Alternatively, if you have built the package locally using `R CMD build`, the `.tar.gz` file should be available in your working directory.
+
+### **2. Install the package locally**
+Once you have the `.tar.gz` file, open R and run:
+
+```r
+install.packages("path/to/rcarousel_0.1.0.tar.gz", repos = NULL, type = "source")
+```
+
+Replace `"path/to/rcarousel_0.1.5.tar.gz"` with the **actual path** where the file is located.
 
 ## Getting Started
 
