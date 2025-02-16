@@ -189,4 +189,7 @@ Your feedback and contributions help make `rcarousel` better for everyone! 💡
 `rcarousel` is licensed under the **MIT License**.  
 See the [`LICENSE`](./LICENSE) file for details.
 
-```<div align="center"> Made with ❤️ by **[Robson Donato](https://github.com/youruser)**. </div> ```
+<div align="center">  
+Made with ❤️ by **[Robson Donato](https://github.com/youruser)**.  
+</div>
+
