@@ -1,0 +1,20 @@
+Package: rcarousel
+Type: Package
+Title: Interactive Slideshow Carousel for Shiny Applications
+Version: 0.1.0
+Authors@R: 
+    person("Robson", "Donato", email = "engenheirodonato.ons@gmail.com", role = c("aut", "cre"))
+Maintainer: Robson Donato <engenheirodonato.ons@gmail.com>
+Description: 
+    The 'rcarousel' package provides a customizable, responsive carousel component 
+    for Shiny applications. It allows you to efficiently display and transition 
+    through multiple UI modules (such as charts, tables, or images) in a track-based 
+    slider interface. The carousel supports both circle (dot) indicators and 
+    square button indicators with labels, making it easy to navigate between 
+    different modules. Users can also customize the colors of navigation arrows 
+    and indicator states, and adjust the carousel container height to ensure a 
+    clean layout in their apps. 
+    Use four spaces when indenting paragraphs within the Description. 
+License: MIT
+Encoding: UTF-8
+LazyData: true

@@ -1,0 +1,96 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  /* height: 400px; <-- Removido pois agora definimos dinamicamente no R com !important */
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 50px;
+}
+
+/* Botões (setas) */
+.carousel-btn.left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 15;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.carousel-btn.right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 15;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* Indicadores */
+.carousel-indicators_r {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  gap: 10px;
+  z-index: 20;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-indicator {
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8em;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Circles */
+.indicator-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Square (botão) */
+.indicator-square {
+  border-radius: 4px;
+  padding: 5px 10px;
+  min-width: 40px;
+  height: auto;
+}
